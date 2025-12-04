@@ -1,0 +1,21 @@
+{
+  "name": "secure-aadhar-portal",
+  "version": "1.0.0",
+  "description": "Secure Aadhar Information Portal",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build step required for static HTML'",
+    "start": "serve .",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "aadhar",
+    "security",
+    "portal"
+  ],
+  "author": "Government of India",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
